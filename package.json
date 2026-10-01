@@ -1,20 +1,19 @@
 {
-  "name": "chatgpt-local-coder",
+  "name": "linux-vm-coder",
   "version": "1.0.0",
-  "description": "Turn ChatGPT web into a local coding agent via MCP — files, shell, git, apply_patch, 40+ tools",
+  "description": "Self-hosted MCP coding tools for a Linux VM: filesystem, shell, git, and optional Google Colab integration",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hoangcoderr/chatgpt-local-coder.git"
+    "url": "https://github.com/jimskin03/Linux-VM-Coder.git"
   },
-  "homepage": "https://github.com/hoangcoderr/chatgpt-local-coder#readme",
+  "homepage": "https://github.com/jimskin03/Linux-VM-Coder#readme",
   "bugs": {
-    "url": "https://github.com/hoangcoderr/chatgpt-local-coder/issues"
+    "url": "https://github.com/jimskin03/Linux-VM-Coder/issues"
   },
-  "author": "hoangcoderr",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "codex-mcp-server": "dist/index.js"
+    "linux-vm-coder": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",

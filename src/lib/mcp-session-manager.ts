@@ -285,7 +285,7 @@ export function createSessionManager(config: SessionManagerConfig): SessionManag
         params: {
           protocolVersion,
           capabilities: {},
-          clientInfo: { name: "codex-mcp-session-recovery", version: "1.0.0" },
+          clientInfo: { name: "linux-vm-coder-session-recovery", version: "1.0.0" },
         },
       },
       staleSessionId

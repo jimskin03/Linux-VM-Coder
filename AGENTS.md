@@ -18,7 +18,7 @@ MCP server local giống Codex: đọc/ghi file, chạy lệnh, git. Dùng với
 
 ### Cách đúng (làm TRƯỚC khi chat)
 
-1. **Settings → Apps → Connectors** → chọn connector **Codex Local**
+1. **Settings → Apps → Connectors** → chọn connector **Linux VM Coder**
 2. Đặt quyền app: **Chỉ hỏi trước thay đổi quan trọng** hoặc **Hỏi trước khi thay đổi**
 3. Bấm **Refresh** connector (sau mỗi lần update server)
 4. Mở chat mới, chọn connector, rồi mới gửi prompt

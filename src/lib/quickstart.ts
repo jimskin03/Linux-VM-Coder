@@ -36,7 +36,7 @@ All tools return JSON: { ok, tool, summary, data }
 *** End Patch
 
 ## Paths
-Full machine access — use ANY absolute path (C:\\, D:\\, etc.). Relative paths resolve from default cwd.
+The server account has full machine access. Use absolute Linux paths as needed (for example, /home/user/project); relative paths resolve from the default working directory. WORKSPACE_PATH is not a sandbox boundary.
 `.trim();
 
 export function buildServerInstructions(
@@ -46,9 +46,10 @@ export function buildServerInstructions(
   contextBlock?: string
 ): string {
   const header = [
-    "# Codex Local Coder MCP",
+    "# Linux VM Coder MCP",
     `Default project: ${workspaceRoot}`,
-    "Full machine access: ON. Tag this connector in ChatGPT before every task.",
+    "Full machine access: absolute paths and shell commands can access files available to the server account; WORKSPACE_PATH is not a sandbox.",
+    "Use this server from your MCP client. In ChatGPT, enable or tag the connector in each chat.",
   ].join("\n");
 
   const footer = [

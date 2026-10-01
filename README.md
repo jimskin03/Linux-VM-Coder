@@ -2,7 +2,7 @@
 
 A self-hosted MCP server that gives an MCP-compatible coding agent access to tools on your Linux VM: workspace files, shell commands, Git, search, patches, project context, and process management. It can also proxy the optional Google Colab MCP server.
 
-The core tools run locally on the VM. They do not depend on Unity, IDA Pro, Ghidra, or other desktop applications. Treat this server as privileged: anyone who can call its tools may be able to read or change files and run commands as the service account.
+The core tools run locally on the VM without requiring separate desktop companion applications. Treat this server as privileged: anyone who can call its tools may be able to read or change files and run commands as the service account.
 
 ## Features
 

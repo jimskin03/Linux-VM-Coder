@@ -1,4 +1,4 @@
-# Script khởi động Codex MCP Server trên Windows (foreground, xem log trực tiếp)
+# Script khởi động Linux VM Coder trên Windows (foreground, xem log trực tiếp)
 param(
     [string]$Workspace = $env:WORKSPACE_PATH,
     [int]$Port = 3000,
@@ -54,7 +54,7 @@ if ($ChatGptAutoApprove) {
 }
 
 Write-Host ""
-Write-Host "=== Codex MCP Server ===" -ForegroundColor Cyan
+Write-Host "=== Linux VM Coder ===" -ForegroundColor Cyan
 Write-Host "Default cwd: $Workspace"
 Write-Host "Full machine access: ON"
 if ($ChatGptAutoApprove) { Write-Host "ChatGPT auto-approve: $ChatGptAutoApprove" }

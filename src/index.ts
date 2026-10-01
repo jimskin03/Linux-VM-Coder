@@ -163,7 +163,7 @@ if (MCP_TOKEN) {
 app.get("/health", (_req, res) => {
   res.json({
     status: "ok",
-    name: "codex-mcp-server",
+    name: "linux-vm-coder",
     workspace: workspaceRoot,
     defaultCwd: getDefaultCwd(),
     fullMachineAccess: true,
@@ -308,7 +308,7 @@ const adminServer = startAdminServer({
 const server = app.listen(PORT, HOST, () => {
   console.log("");
   console.log("========================================");
-  console.log("  Codex MCP Server");
+  console.log("  Linux VM Coder");
   console.log("========================================");
   console.log(`  Local:     http://${HOST}:${PORT}`);
   console.log(`  MCP:       http://${HOST}:${PORT}${DISPLAY_MCP_PATHS[0]}`);

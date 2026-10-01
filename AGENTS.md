@@ -1,4 +1,4 @@
-# Codex MCP Server — Agent Onboarding
+# Linux VM Coder — Agent Onboarding
 
 MCP server local giống Codex: đọc/ghi file, chạy lệnh, git. Dùng với ChatGPT Developer Mode hoặc bất kỳ MCP client nào.
 
@@ -57,9 +57,9 @@ Bình thường khi:
 
 Ở `slim`, thay thế bằng `run_command` (`git log`, `git push`, `rm`, `mv`, …). Gọi `agent_status` để biết profile đang chạy.
 
-## Mapping Claude Code ↔ Codex MCP
+## Mapping Claude Code ↔ Linux VM Coder
 
-| Claude Code | Codex MCP | Ghi chú |
+| Claude Code | Linux VM Coder | Ghi chú |
 |---|---|---|
 | `Read` | `read_text_file` | Có `offset`+`limit` (line numbers) |
 | `Write` | `write_file` | |
